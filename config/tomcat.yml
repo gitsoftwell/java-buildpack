@@ -22,7 +22,7 @@ tomcat:
   external_configuration_enabled: true
 external_configuration:
   version: 7.0.+
-  repository_root: "http://download.softwell.com.br/maker3.8/apache-tomcat-7.0.69.tar/index.yml"
+  repository_root: "http://download.softwell.com.br/cloud/index.yml"
 lifecycle_support:
   version: 2.+
   repository_root: "{default.repository.root}/tomcat-lifecycle-support"
