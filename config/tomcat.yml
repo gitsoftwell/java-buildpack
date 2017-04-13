@@ -16,12 +16,12 @@
 # Configuration for the Tomcat container
 ---
 tomcat:
-  version: 8.0.+
+  version: 8.5.+
   repository_root: "{default.repository.root}/tomcat"
   context_path: 
   external_configuration_enabled: true
 external_configuration:
-  version: 7.0.+
+  version: 8.5.+
   repository_root: "http://download.softwell.com.br/cloud/index.yml"
 lifecycle_support:
   version: 2.+
